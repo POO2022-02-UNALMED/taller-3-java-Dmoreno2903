@@ -14,65 +14,65 @@ public class TV {
 		this.estado = estado;
 	}
 	
-	Marca getMarca() {
+	public Marca getMarca() {
 		return this.marca;
 	}
-	Control getControl() {
+	public Control getControl() {
 		return this.control;
 	}
-	int getPrecio() {
+	public int getPrecio() {
 		return this.precio;
 	}
-	int getVolumen() {
+	public int getVolumen() {
 		return this.volumen;
 	}
-	int getCanal() {
+	public int getCanal() {
 		return this.canal;
 	}
 	
-	void setMarca(Marca marca) {
+	public void setMarca(Marca marca) {
 		this.marca = marca;
 	}
-	void setControl(Control control) {
+	public void setControl(Control control) {
 		this.control = control;
 	}
-	void setPrecio(int precio) {
+	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
-	void setVolumen(int volumen) {
+	public void setVolumen(int volumen) {
 		this.volumen = volumen;
 	}
-	void setCanal(int canal) {
+	public void setCanal(int canal) {
 		this.canal = canal;
 	}
 	
-	void turnOn() {
+	public void turnOn() {
 		this.estado = true;
 	}
-	void turnOff() {
+	public void turnOff() {
 		this.estado = false;
 	}
 	
-	boolean getEstado() {
+	public boolean getEstado() {
 		return this.estado;
 	}
 	
-	void canalUp() {
+	public void canalUp() {
 		if( getEstado()==true && getCanal()<=120) {
 			this.canal++;
 		}
 	}
-	void canalDown() {
+	public void canalDown() {
 		if( getEstado()==true && getCanal()>=1) {
 			this.canal--;
 		}
 	}
-	void volumenUp() {
+	public void volumenUp() {
 		if( getEstado()==true && getCanal()<=7) {
 			this.canal++;
 		}
 	}
-	void volumenDown() {
+	public void volumenDown() {
 		if( getEstado()==true && getCanal()>=0) {
 			this.canal--;
 		}
