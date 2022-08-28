@@ -78,10 +78,10 @@ public class TV {
 		}
 	}
 	
-	public void setNumTV() {
-		this.numTV++;
+	public static void setNumTV(int eVal) {
+		numTV = eVal;
 	}
-	public int getNumTV() {
-		return this.numTV;
+	public static int getNumTV() {
+		return numTV;
 	}
 }
