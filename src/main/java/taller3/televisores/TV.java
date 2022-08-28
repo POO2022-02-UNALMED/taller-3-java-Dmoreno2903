@@ -77,4 +77,11 @@ public class TV {
 			this.canal--;
 		}
 	}
+	
+	void setNumTV() {
+		TV.numTV++;
+	}
+	int getNumTV() {
+		return TV.numTV;
+	}
 }
