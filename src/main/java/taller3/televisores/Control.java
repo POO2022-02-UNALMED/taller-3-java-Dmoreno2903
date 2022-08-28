@@ -28,10 +28,10 @@ public class Control {
 	public void setCanal(int canal) {
 		tv.setCanal(canal);
 	}
-	public TV getTV() {
-		return this.tv;
+	public TV getTv() {
+		return tv;
 	}
-	public void setTV(TV tv) {
+	public void setTv(TV tv) {
 		this.tv = tv;
 	}
 }
