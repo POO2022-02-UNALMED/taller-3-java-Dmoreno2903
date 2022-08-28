@@ -79,9 +79,9 @@ public class TV {
 	}
 	
 	public void setNumTV() {
-		TV.numTV++;
+		this.numTV++;
 	}
 	public int getNumTV() {
-		return TV.numTV;
+		return this.numTV;
 	}
 }
