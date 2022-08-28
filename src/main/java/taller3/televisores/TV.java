@@ -77,7 +77,7 @@ public class TV {
 		}
 	}
 	public void volumenDown() {
-		if( this.estado == true && this.volumen >= 2) {
+		if( this.estado == true && this.volumen >= 1) {
 			this.canal--;
 		}
 	}
